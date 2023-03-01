@@ -1,0 +1,18 @@
+{
+  "name": "digora-v01",
+  "version": "1.0.0",
+  "description": "Digora Página Web de la marca.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Christian Jiménez Calvo",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
