@@ -3,10 +3,13 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
-    font-family: $glb-font-family;
-    color: $glb-font-color-dark;
-    font-size: $glb-font-size;
+    font-family: $glb-font-principal01;
+    font-size: $glb-font-size01;
     font-weight: 400;
+    color: #000000;
 }
+
+.color__digora--a {
+    color: $glb-brand-color01 !important; }
+
