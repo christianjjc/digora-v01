@@ -12,6 +12,17 @@ body {
 .color__digora--a {
   color: #009f97 !important; }
 
+.pos__adelante {
+  z-index: 5; }
+
+.caja__portada {
+  height: 600px;
+  overflow: hidden;
+  /*  background-image: url("../img/slide01.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: -200px bottom; */ }
+
 .imagotipo {
   font-family: "Spinnaker", "sans-serif";
   font-size: 26px;
