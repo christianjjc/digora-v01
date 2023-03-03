@@ -20,20 +20,22 @@
     font-family: $glb-font-principal01;
     font-size: 24px;
     letter-spacing:0.2em;
-    line-height: 1.75em
+    line-height: 1.75em;
+    text-align: center;
 }
 
 .texto__grande{
     font-family: $glb-font-principal02;
     font-size: 28px;
     letter-spacing:0.2em;
-    line-height: 1.75em
+    line-height: 1.75em;
+    text-align: center;
 }
 
 
 .div__boton__coleccion{
     height: 50px;
-    top: 90%;
+    top: 85%;
     //transform: translate(-50%, -50%);
 }
 
@@ -48,6 +50,7 @@
 }
 
 .boton__coleccion:hover {
-    background-color: rgba($glb-brand-color02,0.7);
+    background-color: rgba($glb-brand-color02,0.9);
     color: white;
-  }
+    font-size: 20px;
+}
