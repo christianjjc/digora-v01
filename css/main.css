@@ -37,7 +37,7 @@ body {
   z-index: 1; }
 
 .caja__portada {
-  height: 700px;
+  height: 260px;
   overflow: hidden;
   /*  background-image: url("../img/slide01.jpg");
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ body {
 /* Pantallas mini a sm */
 @media screen and (max-width: 577px) {
   .caja__centrada {
-    top: 30%;
+    top: 40%;
     height: 120px;
     width: 350px; }
   .texto__medio {
@@ -120,7 +120,19 @@ body {
     font-size: 17px; } }
 
 /* Pantallas sm a md */
+@media screen and (min-width: 578px) {
+  .caja__portada {
+    height: 400px; } }
+
 /* Pantallas md */
+@media screen and (min-width: 768px) {
+  .caja__portada {
+    height: 500px; } }
+
 /* Pantallas lg */
+@media screen and (min-width: 992px) {
+  .caja__portada {
+    height: 700px; } }
+
 /* Pantallas xl */
 /* Pantallas xxl */
