@@ -11,16 +11,47 @@ body {
     color: $glb-text-color01;
 }
 
-.color__digora--a {
+.color__digora1--texto {
     color: $glb-brand-color01 !important;
 }
 
-.pos__adelante {
+.color__digora1--bg {
+    background-color: $glb-brand-color01 !important;
+}
+
+
+.color__digora2--texto {
+    color: $glb-brand-color02 !important;
+}
+
+.color__digora2--bg {
+    background-color: $glb-brand-color02 !important;
+}
+
+
+
+.pos__5 {
     z-index: 5;
 }
 
+.pos__4 {
+    z-index: 4;
+}
+
+.pos__3 {
+    z-index: 3;
+}
+
+.pos__2 {
+    z-index: 2;
+}
+
+.pos__1 {
+    z-index: 1;
+}
+
 .caja__portada{
-    height: 600px;
+    height: 700px;
     overflow: hidden;
 /*  background-image: url("../img/slide01.jpg");
     background-repeat: no-repeat;

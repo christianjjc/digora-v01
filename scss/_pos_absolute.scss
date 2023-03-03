@@ -1,0 +1,53 @@
+.caja__centrada{
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 550px;
+}
+
+.fondo_transparente{
+    //opacity: 0.5;
+    background: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.texto__medio{
+    font-family: $glb-font-principal01;
+    font-size: 24px;
+    letter-spacing:0.2em;
+    line-height: 1.75em
+}
+
+.texto__grande{
+    font-family: $glb-font-principal02;
+    font-size: 28px;
+    letter-spacing:0.2em;
+    line-height: 1.75em
+}
+
+
+.div__boton__coleccion{
+    height: 50px;
+    top: 90%;
+    //transform: translate(-50%, -50%);
+}
+
+.boton__coleccion{
+    background-color: $glb-brand-color02;
+    border: none;
+    color: $glb-text-color01;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+.boton__coleccion:hover {
+    background-color: rgba($glb-brand-color02,0.7);
+    color: white;
+  }

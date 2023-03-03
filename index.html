@@ -18,13 +18,18 @@
 </head>
 
 <body>
-    <header class="sticky-top pos__adelante">
-        <nav class="navbar navbar-expand-lg py-3">
+    <header class="sticky-top pos__5">
+        <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="./img/digoraLogoWeb.svg" alt="Logo" width="30" height="24"
-                        class="d-inline-block align-text-top">
-                    <span class="imagotipo">Digora</span>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="./img/digoraLogoWeb.svg" alt="Logo" class="d-inline-block align-text-top isotipo">
+                        </div>
+                        <div class="col-8">
+                            <div class="logotipo mt-2">Digora</div>
+                        </div>
+                    </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,27 +38,27 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav flex">
                         <li class="nav-item px-3">
-                            <a class="nav-link active transiciones" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active transiciones" aria-current="page" href="./index.html">Inicio</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link active" href="#">Colecciones</a>
+                            <a class="nav-link" href="#">Colecciones</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link active" href="#">Conócenos</a>
+                            <a class="nav-link" href="#">Conócenos</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link active" href="#">Contacto</a>
+                            <a class="nav-link" href="#">Contacto</a>
                         </li>
                     </ul>
                 </div>
                 <div class="row d-none d-lg-flex ps-5">
                     <div class="col-12 my-auto text-end">
-                        <a class="text-reset me-2 color__digora--a" href="#"><i class="bi bi-instagram fs-6"></i></a>
-                        <a class="text-reset me-2 color__digora--a" href="#"><i class="bi bi-facebook fs-6"></i></a>
-                        <!--    <a class="text-reset me-2 color__digora--a" href="#"><i class="bi bi-linkedin fs-6"></i></a>
-                        <a class="text-reset me-2 color__digora--a" href="#"><i class="bi bi-youtube fs-6"></i></a> -->
+                        <a class="text-reset me-2 color__digora1--texto" href="#"><i class="bi bi-instagram fs-5"></i></a>
+                        <a class="text-reset me-2 color__digora1--texto" href="#"><i class="bi bi-facebook fs-5"></i></a>
+                        <!--    <a class="text-reset me-2 color__digora1--texto" href="#"><i class="bi bi-linkedin fs-6"></i></a>
+                        <a class="text-reset me-2 color__digora1--texto" href="#"><i class="bi bi-youtube fs-6"></i></a> -->
                         <span class="fs-6 me-2">|</span>
-                        <a class="text-reset color__digora--a" href="#"><i class="bi bi-whatsapp fs-6"></i></a>
+                        <a class="text-reset color__digora1--texto" href="#"><i class="bi bi-whatsapp fs-5"></i></a>
                     </div>
                 </div>
             </div>
@@ -61,9 +66,8 @@
     </header>
     <main>
         <section>
-            <div class="row caja__portada">
+            <div class="row caja__portada position-relative">
                 <div class="col-12">
-                    <!-- <img class="img__portada" src="./img/slide01.jpg" alt=""> -->
                     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="5000">
@@ -86,6 +90,20 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
+                    </div>
+                </div>
+                <div class="d-none d-sm-none d-md-block caja__centrada position-absolute">
+                    <div class="fondo_transparente position-relative">
+                            <div class="row">
+                                <div class="col-12 texto__medio">Descubre nuestra</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 texto__grande">Colección de Oro</div>
+                            </div>
+                            <div class="row position-absolute w-100 div__boton__coleccion">
+                                <button class="boton__coleccion col-6 mx-auto" type="button">Explora la colección</button>
+                            </div>
+                            </div>
                     </div>
                 </div>
             </div>
