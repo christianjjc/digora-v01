@@ -58,3 +58,19 @@ body {
     background-size:cover;
     background-position: -200px bottom; */
 }
+
+.imgslide{
+    //height: 700px;
+    overflow: hidden;
+    background-image: url("../img/slide01.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    //transform: scale(1);
+}
+
+.tarjeta__slide{
+    
+}
