@@ -2,45 +2,45 @@
 /* @ MEDIA QUERIES */
 /* ******************************** */
 
-/* Pantallas mini a sm */
+//Pantallas mini a sm
 @media screen and (max-width: 577px) {
 
-    .caja__centrada{
-        top: 40%;
-        height: 120px;
-        width: 350px;
-    }
-
-    .texto__medio{
-        font-size: 18px;
-    }
-
-    .texto__grande{
-        font-size: 22px;
-    }
-
-    .boton__coleccion{
-        font-size: 16px;
-    }
-
-    .boton__coleccion:hover {
-        font-size: 17px;
-    }
-    
 }
 
 
-/* Pantallas sm a md */
+//Pantallas sm a md
 @media screen and (min-width: 578px) {
 
     .caja__portada{
         height: 400px;
     }
 
+    .caja__centrada{
+        top: 50%;
+        height: 200px;
+        width: 550px;
+    }
+
+    .texto__medio{
+        font-size: 24px;
+    }
+
+    .texto__grande{
+        font-size: 28px;
+    }
+
+    .boton__coleccion{
+        font-size: 18px;
+    }
+
+    .boton__coleccion:hover {
+        font-size: 20px;
+    }
+
 }
 
 
-/* Pantallas md */
+// Pantallas md a lg
 @media screen and (min-width: 768px) {
 
     .caja__portada{
@@ -50,23 +50,22 @@
 }
 
 
-/* Pantallas lg */
+// Pantallas lg a xl
 @media screen and (min-width: 992px) {
 
     .caja__portada{
         height: 700px;
     }
-
 }
 
 
-/* Pantallas xl */
+//Pantallas xl a xxl*
 @media screen and (min-width: 1200px) {
 
 }
 
 
-/* Pantallas xxl */
+// Pantallas xxl a más
 @media screen and (min-width: 1400px) {
 
 }
