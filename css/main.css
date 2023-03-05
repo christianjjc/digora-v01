@@ -12,46 +12,14 @@ body {
 .color__digora1--texto {
   color: #2f9d96 !important; }
 
-.color__digora1--bg {
-  background-color: #2f9d96 !important; }
-
 .color__digora2--texto {
   color: #d1a8c8 !important; }
 
+.color__digora1--bg {
+  background-color: #2f9d96 !important; }
+
 .color__digora2--bg {
   background-color: #d1a8c8 !important; }
-
-.pos__5 {
-  z-index: 5; }
-
-.pos__4 {
-  z-index: 4; }
-
-.pos__3 {
-  z-index: 3; }
-
-.pos__2 {
-  z-index: 2; }
-
-.pos__1 {
-  z-index: 1; }
-
-.caja__portada {
-  height: 260px;
-  overflow: hidden;
-  /*  background-image: url("../img/slide01.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: -200px bottom; */ }
-
-.imgslide {
-  overflow: hidden;
-  background-image: url("../img/slide01.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%; }
 
 .isotipo {
   width: 40px; }
@@ -63,6 +31,14 @@ body {
 
 .imagotipo {
   width: 0px; }
+
+.caja__portada {
+  height: 260px;
+  overflow: hidden;
+  /*  background-image: url("../img/slide01.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: -200px bottom; */ }
 
 .caja__centrada {
   top: 50%;
