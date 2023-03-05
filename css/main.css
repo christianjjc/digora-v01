@@ -32,6 +32,18 @@ body {
 .imagotipo {
   width: 0px; }
 
+.footer {
+  font-size: 14px;
+  height: 600px; }
+
+.isotipo--footer {
+  width: 100px; }
+
+.logotipo--footer {
+  font-family: "Spinnaker", "sans-serif";
+  font-size: 40px;
+  color: #2f9d96; }
+
 .caja__portada {
   height: 260px;
   overflow: hidden;
@@ -41,12 +53,12 @@ body {
     background-position: -200px bottom; */ }
 
 .caja__centrada {
-  top: 50%;
+  top: 40%;
+  height: 120px;
+  width: 350px;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%);
-  height: 200px;
-  width: 550px; }
+  transform: translate(-50%, -50%); }
 
 .fondo_transparente {
   background: rgba(255, 255, 255, 0.5);
@@ -56,14 +68,14 @@ body {
 
 .texto__medio {
   font-family: "Overlock", "cursive";
-  font-size: 24px;
+  font-size: 18px;
   letter-spacing: 0.2em;
   line-height: 1.75em;
   text-align: center; }
 
 .texto__grande {
   font-family: "Spinnaker", "sans-serif";
-  font-size: 28px;
+  font-size: 22px;
   letter-spacing: 0.2em;
   line-height: 1.75em;
   text-align: center; }
@@ -79,45 +91,36 @@ body {
   text-align: center;
   transition: 0.3s;
   border-radius: 2px;
-  font-size: 18px; }
+  font-size: 16px; }
 
 .boton__coleccion:hover {
   background-color: rgba(209, 168, 200, 0.9);
   color: white;
-  font-size: 20px; }
+  font-size: 17px; }
 
 /* ******************************** */
 /* @ MEDIA QUERIES */
 /* ******************************** */
-/* Pantallas mini a sm */
-@media screen and (max-width: 577px) {
-  .caja__centrada {
-    top: 40%;
-    height: 120px;
-    width: 350px; }
-  .texto__medio {
-    font-size: 18px; }
-  .texto__grande {
-    font-size: 22px; }
-  .boton__coleccion {
-    font-size: 16px; }
-  .boton__coleccion:hover {
-    font-size: 17px; } }
-
-/* Pantallas sm a md */
 @media screen and (min-width: 578px) {
   .caja__portada {
-    height: 400px; } }
+    height: 400px; }
+  .caja__centrada {
+    top: 50%;
+    height: 200px;
+    width: 550px; }
+  .texto__medio {
+    font-size: 24px; }
+  .texto__grande {
+    font-size: 28px; }
+  .boton__coleccion {
+    font-size: 18px; }
+  .boton__coleccion:hover {
+    font-size: 20px; } }
 
-/* Pantallas md */
 @media screen and (min-width: 768px) {
   .caja__portada {
     height: 500px; } }
 
-/* Pantallas lg */
 @media screen and (min-width: 992px) {
   .caja__portada {
     height: 700px; } }
-
-/* Pantallas xl */
-/* Pantallas xxl */
