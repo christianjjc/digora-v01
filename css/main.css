@@ -43,24 +43,24 @@ body {
   width: 0px; }
 
 .footer {
-  font-size: 14px; }
+  font-size: 16px; }
 
 .isotipo--footer {
-  width: 100px; }
+  width: 80px; }
 
 .logotipo--footer {
   font-family: "Spinnaker", "sans-serif";
-  font-size: 35px; }
+  font-size: 32px; }
 
 .logotipo--footer-copy {
-  font-size: 18px; }
+  font-size: 16px; }
 
 .footer__derechos {
   background: var(--bs-emphasis-color); }
 
 .titulo__footer {
   font-family: "Spinnaker", "sans-serif";
-  font-size: 14px; }
+  font-size: 16px; }
 
 .caja__portada {
   height: 260px;
@@ -114,7 +114,7 @@ body {
 .boton__coleccion:hover {
   background-color: rgba(209, 168, 200, 0.9);
   color: white;
-  font-size: 17px; }
+  font-size: 18px; }
 
 .tarjeta__parrafo--titulo {
   font-family: "Spinnaker", "sans-serif";

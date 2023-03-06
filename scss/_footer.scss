@@ -1,22 +1,21 @@
 .footer{
-    font-size: 14px;
+    font-size: $glb-font-size00;
     //height: 600px;
     //height: 100vh;
 }
 
 .isotipo--footer{
-    width: 100px;
+    width: 80px;
 }
 
 .logotipo--footer{
     font-family: $glb-font-principal02;
-    font-size: $glb-font-size03;
+    font-size: $glb-font-size02;
 }
 
 .logotipo--footer-copy{
-    font-size: $glb-font-size01;
+    font-size: $glb-font-size00;
 }
-
 
 .footer__derechos{
     background: var(--bs-emphasis-color)
@@ -24,5 +23,5 @@
 
 .titulo__footer{
     font-family: $glb-font-principal02;
-    font-size: 14px;
+    font-size: $glb-font-size00;
 }
