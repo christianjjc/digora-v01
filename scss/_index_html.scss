@@ -59,6 +59,16 @@
 
 .boton__coleccion:hover {
     background-color: rgba($glb-brand-color02,0.9);
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 17px;
 }
+
+.tarjeta__parrafo--titulo{
+    font-family: $glb-font-principal02;
+    font-size: 18px;
+}
+
+.tarjeta__parrafo--descripcion{
+    font-size: 16px;
+}
+

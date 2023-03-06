@@ -11,9 +11,18 @@
 .logotipo--footer{
     font-family: $glb-font-principal02;
     font-size: $glb-font-size03;
-    color: $glb-brand-color01;
 }
+
+.logotipo--footer-copy{
+    font-size: $glb-font-size01;
+}
+
 
 .footer__derechos{
     background: var(--bs-emphasis-color)
+}
+
+.titulo__footer{
+    font-family: $glb-font-principal02;
+    font-size: 14px;
 }

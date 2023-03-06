@@ -25,3 +25,16 @@ body {
 .color__digora2--bg {
     background-color: $glb-brand-color02 !important;
 }
+
+.contenedor__img {
+    overflow:hidden;
+}
+
+.contenedor__img:hover .img__card {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+.img__card{
+    transition: 0.5s;
+}
