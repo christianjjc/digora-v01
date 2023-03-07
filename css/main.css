@@ -35,7 +35,8 @@ body {
   font-family: "Overlock", "cursive"; }
 
 .txt__brand__02 {
-  font-family: "Spinnaker", "sans-serif"; }
+  font-family: "Spinnaker", "sans-serif";
+  font-size: 15px; }
 
 .isotipo {
   width: 60px; }
@@ -59,7 +60,7 @@ body {
   font-size: 35px; }
 
 .logotipo--footer-copy {
-  font-size: 16px; }
+  font-size: 15px; }
 
 .footer__derechos {
   background: var(--bs-emphasis-color); }
