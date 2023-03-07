@@ -21,30 +21,52 @@ body {
 .color__digora2--bg {
   background-color: #d1a8c8 !important; }
 
+.contenedor__img {
+  overflow: hidden; }
+
+.contenedor__img:hover .img__card {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.img__card {
+  transition: 0.5s; }
+
+.txt__brand__01 {
+  font-family: "Overlock", "cursive"; }
+
+.txt__brand__02 {
+  font-family: "Spinnaker", "sans-serif"; }
+
 .isotipo {
-  width: 40px; }
+  width: 60px; }
 
 .logotipo {
   font-family: "Spinnaker", "sans-serif";
-  font-size: 32px;
+  font-size: 35px;
   color: #2f9d96; }
 
-.imagotipo {
-  width: 0px; }
+.logotipo__header--copy {
+  font-size: 15px; }
 
 .footer {
-  font-size: 14px; }
+  font-size: 16px; }
 
 .isotipo--footer {
-  width: 100px; }
+  width: 80px; }
 
 .logotipo--footer {
   font-family: "Spinnaker", "sans-serif";
-  font-size: 40px;
-  color: #2f9d96; }
+  font-size: 35px; }
+
+.logotipo--footer-copy {
+  font-size: 16px; }
 
 .footer__derechos {
   background: var(--bs-emphasis-color); }
+
+.titulo__footer {
+  font-family: "Spinnaker", "sans-serif";
+  font-size: 16px; }
 
 .caja__portada {
   height: 260px;
@@ -98,7 +120,14 @@ body {
 .boton__coleccion:hover {
   background-color: rgba(209, 168, 200, 0.9);
   color: white;
-  font-size: 17px; }
+  font-size: 18px; }
+
+.tarjeta__parrafo--titulo {
+  font-family: "Spinnaker", "sans-serif";
+  font-size: 18px; }
+
+.tarjeta__parrafo--descripcion {
+  font-size: 16px; }
 
 /* ******************************** */
 /* @ MEDIA QUERIES */

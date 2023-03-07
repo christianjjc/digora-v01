@@ -54,11 +54,21 @@
     text-align: center;
     transition: 0.3s;
     border-radius: 2px;
-    font-size: 16px;
+    font-size: $glb-font-size00;
 }
 
 .boton__coleccion:hover {
     background-color: rgba($glb-brand-color02,0.9);
-    color: white;
-    font-size: 17px;
+    color: rgb(255, 255, 255);
+    font-size: $glb-font-size01;
 }
+
+.tarjeta__parrafo--titulo{
+    font-family: $glb-font-principal02;
+    font-size: $glb-font-size01;
+}
+
+.tarjeta__parrafo--descripcion{
+    font-size: $glb-font-size00;
+}
+
