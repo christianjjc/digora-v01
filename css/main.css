@@ -36,7 +36,7 @@ body {
 
 .txt__brand__02 {
   font-family: "Spinnaker", "sans-serif";
-  font-size: 15px; }
+  font-size: 16px; }
 
 .isotipo {
   width: 60px; }
@@ -155,4 +155,6 @@ body {
 
 @media screen and (min-width: 992px) {
   .caja__portada {
-    height: 700px; } }
+    height: 700px; }
+  .navbar-nav {
+    font-size: 18px; } }

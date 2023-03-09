@@ -39,7 +39,6 @@
 
 }
 
-
 // Pantallas md a lg 768
 @media screen and (min-width: 768px) {
 
@@ -49,13 +48,17 @@
 
 }
 
-
 // Pantallas lg a xl
 @media screen and (min-width: 992px) {
 
     .caja__portada{
         height: 700px;
     }
+
+    .navbar-nav{
+        font-size: $glb-font-size01;
+    }
+
 }
 
 
