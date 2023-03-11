@@ -130,6 +130,21 @@ body {
 .tarjeta__parrafo--descripcion {
   font-size: 16px; }
 
+.btn__img__desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000000;
+  padding: 10px;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out; }
+
+.btn__img:hover .btn__img__desc {
+  opacity: 1; }
+
 /* ******************************** */
 /* @ MEDIA QUERIES */
 /* ******************************** */
