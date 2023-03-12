@@ -19,10 +19,31 @@
 }
 
 .footer__derechos{
-    background: var(--bs-emphasis-color)
+    //background: var(--bs-emphasis-color);
+    //background: $glb-brand-color01;
+    //color: white;
 }
 
 .titulo__footer{
     font-family: $glb-font-principal02;
     font-size: $glb-font-size00;
+}
+
+.footer__img__cards {
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer__img__cards picture {
+    display: block;
+    width: auto;
+    height: 25px;
+    margin: 0 25px;
+}
+
+.footer__img__cards img {
+    display: block;
+    height: 25px;
+    width: auto;
 }
