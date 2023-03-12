@@ -62,9 +62,6 @@ body {
 .logotipo--footer-copy {
   font-size: 15px; }
 
-.footer__derechos {
-  background: var(--bs-emphasis-color); }
-
 .titulo__footer {
   font-family: "Spinnaker", "sans-serif";
   font-size: 16px; }
