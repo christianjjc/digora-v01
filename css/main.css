@@ -71,15 +71,11 @@ body {
   justify-content: center; }
 
 .footer__img__cards picture {
-  display: block;
-  width: auto;
   height: 25px;
   margin: 0 25px; }
 
 .footer__img__cards img {
-  display: block;
-  height: 25px;
-  width: auto; }
+  height: 25px; }
 
 .caja__portada {
   height: 260px;
