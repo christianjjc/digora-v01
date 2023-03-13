@@ -1,39 +1,11 @@
-.footer{
-    font-size: $glb-font-size16;
-    //height: 600px;
-    //height: 100vh;
-}
-
 .isotipo--footer{
     width: 80px;
-}
-
-.logotipo--footer{
-    font-family: $glb-font-principal01;
-    font-size: $glb-font-size36;
-}
-
-.logotipo--footer-copy{
-    //font-size: $glb-font-size16;
-    font-size:$glb-font-size16;
-}
-
-.footer__derechos{
-    //background: var(--bs-emphasis-color);
-    //background: $glb-brand-color01;
-    //color: white;
-}
-
-.titulo__footer{
-    font-family: $glb-font-principal01;
-    font-size: $glb-font-size16;
 }
 
 .footer__img__cards {
     display: flex;
     justify-content: center;
 }
-
 
 .footer__img__cards picture {
     //display: block;
