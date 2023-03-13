@@ -6,11 +6,11 @@
 
 //texto del logo
 .logotipo{
-    font-family: $glb-font-principal02;
-    font-size: $glb-font-size02;
+    font-family: $glb-font-principal01;
+    font-size: $glb-font-size36;
     color: $glb-brand-color01; 
 }
 
 .logotipo__header--copy{
-    font-size: 15px;
+    font-size: $glb-font-size16;
 }

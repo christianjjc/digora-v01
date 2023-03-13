@@ -1,5 +1,5 @@
 .footer{
-    font-size: $glb-font-size00;
+    font-size: $glb-font-size16;
     //height: 600px;
     //height: 100vh;
 }
@@ -9,13 +9,13 @@
 }
 
 .logotipo--footer{
-    font-family: $glb-font-principal02;
-    font-size: $glb-font-size02;
+    font-family: $glb-font-principal01;
+    font-size: $glb-font-size36;
 }
 
 .logotipo--footer-copy{
-    //font-size: $glb-font-size00;
-    font-size:15px;
+    //font-size: $glb-font-size16;
+    font-size:$glb-font-size16;
 }
 
 .footer__derechos{
@@ -25,8 +25,8 @@
 }
 
 .titulo__footer{
-    font-family: $glb-font-principal02;
-    font-size: $glb-font-size00;
+    font-family: $glb-font-principal01;
+    font-size: $glb-font-size16;
 }
 
 .footer__img__cards {

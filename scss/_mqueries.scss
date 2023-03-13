@@ -37,6 +37,10 @@
         font-size: 20px;
     }
 
+    .navbar-nav{
+        font-size: $glb-font-size16;
+    }
+
 }
 
 // Pantallas md a lg 768
@@ -56,7 +60,7 @@
     }
 
     .navbar-nav{
-        font-size: $glb-font-size01;
+        font-size: $glb-font-size18;
     }
 
 }
