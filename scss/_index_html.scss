@@ -26,7 +26,7 @@
 
 
 .texto__medio{
-    font-family: $glb-font-principal01;
+    font-family: $glb-font-principal02;
     font-size: 18px;
     letter-spacing:0.2em;
     line-height: 1.75em;
@@ -34,7 +34,7 @@
 }
 
 .texto__grande{
-    font-family: $glb-font-principal02;
+    font-family: $glb-font-principal01;
     font-size: 22px;
     letter-spacing:0.2em;
     line-height: 1.75em;
@@ -54,22 +54,22 @@
     text-align: center;
     transition: 0.3s;
     border-radius: 2px;
-    font-size: $glb-font-size00;
+    font-size: $glb-font-size16;
 }
 
 .boton__coleccion:hover {
     background-color: rgba($glb-brand-color02,0.9);
     color: rgb(255, 255, 255);
-    font-size: $glb-font-size01;
+    font-size: $glb-font-size18;
 }
 
 .tarjeta__parrafo--titulo{
-    font-family: $glb-font-principal02;
-    font-size: $glb-font-size01;
+    font-family: $glb-font-principal01;
+    font-size: $glb-font-size18;
 }
 
 .tarjeta__parrafo--descripcion{
-    font-size: $glb-font-size00;
+    font-size: $glb-font-size16;
 }
 
 
