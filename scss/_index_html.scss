@@ -24,22 +24,22 @@
     border-radius: 5px;
 }
 
+.texto__grande{
+    font-family: $glb-font-principal01;
+    font-size: $glb-t3-enfasis3;
+    letter-spacing:0.2em;
+    line-height: 1.75em;
+    text-align: center;
+}
 
 .texto__medio{
     font-family: $glb-font-principal02;
-    font-size: 18px;
+    font-size: $glb-t5-subtitulo;
     letter-spacing:0.2em;
     line-height: 1.75em;
     text-align: center;
 }
 
-.texto__grande{
-    font-family: $glb-font-principal01;
-    font-size: 22px;
-    letter-spacing:0.2em;
-    line-height: 1.75em;
-    text-align: center;
-}
 
 .div__boton__coleccion{
     height: 50px;
@@ -54,23 +54,23 @@
     text-align: center;
     transition: 0.3s;
     border-radius: 2px;
-    font-size: $glb-font-size16;
+    font-size: $glb-t6-parrafo1;
 }
 
 .boton__coleccion:hover {
     background-color: rgba($glb-brand-color02,0.9);
     color: rgb(255, 255, 255);
-    font-size: $glb-font-size18;
+    font-size: $glb-t5-subtitulo;
 }
 
-.tarjeta__parrafo--titulo{
+/* .tarjeta__parrafo--titulo{
     font-family: $glb-font-principal01;
-    font-size: $glb-font-size18;
+    font-size: $glb-t5-subtitulo;
 }
 
 .tarjeta__parrafo--descripcion{
-    font-size: $glb-font-size16;
-}
+    font-size: $glb-t6-parrafo1;
+} */
 
 
 .btn__img__desc {
@@ -81,7 +81,7 @@
     background-color: rgba(255, 255, 255, 0.5);
     color: #000000;
     padding: 10px;
-    font-size: 16px;
+    font-size: $glb-t6-parrafo1;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
   }

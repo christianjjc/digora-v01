@@ -21,24 +21,24 @@
         width: 550px;
     }
 
-    .texto__medio{
-        font-size: 24px;
+    .texto__grande{
+        font-size: $glb-t2-enfasis1;
     }
 
-    .texto__grande{
-        font-size: 28px;
+    .texto__medio{
+        font-size: $glb-t3-enfasis2;
     }
 
     .boton__coleccion{
-        font-size: 18px;
+        font-size: $glb-t5-subtitulo;
     }
 
     .boton__coleccion:hover {
-        font-size: 20px;
+        font-size: $glb-t4-titulo;
     }
 
     .navbar-nav{
-        font-size: $glb-font-size16;
+        font-size: $glb-t6-parrafo1;
     }
 
 }
@@ -60,7 +60,7 @@
     }
 
     .navbar-nav{
-        font-size: $glb-font-size18;
+        font-size: $glb-t5-subtitulo;
     }
 
 }

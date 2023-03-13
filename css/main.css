@@ -21,6 +21,9 @@ body {
 .color__digora2--bg {
   background-color: #d1a8c8 !important; }
 
+.color__texto__negro {
+  color: var(--bs-emphasis-color) !important; }
+
 .contenedor__img {
   overflow: hidden; }
 
@@ -37,33 +40,31 @@ body {
 .txt__brand__02 {
   font-family: "Overlock", "cursive"; }
 
+.txt_logo {
+  font-family: "Spinnaker", "sans-serif";
+  font-size: 36px;
+  color: #2f9d96; }
+
+.txt_titulo {
+  font-size: 20px; }
+
+.txt_subtitulo {
+  font-size: 18px; }
+
+.txt_parrafo {
+  font-size: 16px; }
+
 .isotipo {
   width: 60px; }
 
 .logotipo {
-  font-family: "Spinnaker", "sans-serif";
-  font-size: 36px;
   color: #2f9d96; }
 
 .logotipo__header--copy {
   font-size: 16px; }
 
-.footer {
-  font-size: 16px; }
-
 .isotipo--footer {
   width: 80px; }
-
-.logotipo--footer {
-  font-family: "Spinnaker", "sans-serif";
-  font-size: 36px; }
-
-.logotipo--footer-copy {
-  font-size: 16px; }
-
-.titulo__footer {
-  font-family: "Spinnaker", "sans-serif";
-  font-size: 16px; }
 
 .footer__img__cards {
   display: flex;
@@ -98,16 +99,16 @@ body {
   width: 100%;
   border-radius: 5px; }
 
-.texto__medio {
-  font-family: "Overlock", "cursive";
-  font-size: 18px;
+.texto__grande {
+  font-family: "Spinnaker", "sans-serif";
+  font-size: 22px;
   letter-spacing: 0.2em;
   line-height: 1.75em;
   text-align: center; }
 
-.texto__grande {
-  font-family: "Spinnaker", "sans-serif";
-  font-size: 22px;
+.texto__medio {
+  font-family: "Overlock", "cursive";
+  font-size: 18px;
   letter-spacing: 0.2em;
   line-height: 1.75em;
   text-align: center; }
@@ -130,13 +131,14 @@ body {
   color: white;
   font-size: 18px; }
 
-.tarjeta__parrafo--titulo {
-  font-family: "Spinnaker", "sans-serif";
-  font-size: 18px; }
+/* .tarjeta__parrafo--titulo{
+    font-family: $glb-font-principal01;
+    font-size: $glb-t5-subtitulo;
+}
 
-.tarjeta__parrafo--descripcion {
-  font-size: 16px; }
-
+.tarjeta__parrafo--descripcion{
+    font-size: $glb-t6-parrafo1;
+} */
 .btn__img__desc {
   position: absolute;
   top: 50%;
@@ -162,10 +164,10 @@ body {
     top: 50%;
     height: 200px;
     width: 550px; }
-  .texto__medio {
-    font-size: 24px; }
   .texto__grande {
     font-size: 28px; }
+  .texto__medio {
+    font-size: 24px; }
   .boton__coleccion {
     font-size: 18px; }
   .boton__coleccion:hover {
